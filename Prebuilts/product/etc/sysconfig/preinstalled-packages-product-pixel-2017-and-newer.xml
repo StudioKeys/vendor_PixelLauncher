@@ -7,6 +7,8 @@
         <install-in user-type="FULL" />
     </install-in-user-type>
     <install-in-user-type package="com.google.android.apps.nexuslauncher">
+        <!-- Unfortunately some things (eg recents) look specifically for launcher in user 0 -->
+        <install-in user-type="SYSTEM" />
         <install-in user-type="FULL" />
     </install-in-user-type>
     <install-in-user-type package="com.google.android.apps.wallpaper">

@@ -18,18 +18,6 @@ LOCAL_PATH:= $(call my-dir)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := NexusLauncherReleaseMod
-LOCAL_MODULE_TAGS := optional
-ifeq ($(PIXEL_LAUNCHER_VARIANT),ammit)
-LOCAL_SRC_FILES := AmmitM.apk
-else ifeq ($(PIXEL_LAUNCHER_VARIANT),horus)
-LOCAL_SRC_FILES := HorusM.apk
-else ifeq ($(PIXEL_LAUNCHER_VARIANT),khonsu)
-LOCAL_SRC_FILES := KhonsuM.apk
-else ifeq ($(PIXEL_LAUNCHER_VARIANT),tawaret)
-LOCAL_SRC_FILES := TawaretM.apk
-else
-$(error Not set PIXEL_LAUNCHER_VARIANT, read more in vendor/PixelLauncher/REAMDE.md)
-endif
 LOCAL_PRODUCT_MODULE := true
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED

@@ -106,4 +106,20 @@
 
       </filter>
     </item>
+    <item name="com.google.android.gm/com.google.android.gm.ComposeActivityGmailExternal">
+        <filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.DEFAULT" />
+            <cat name="android.intent.category.BROWSABLE" />
+            <scheme name="mailto" />
+        </filter>
+    </item>
+    <item name="com.google.android.gm/com.google.android.gm.ComposeActivityGmailExternal">
+        <filter>
+            <action name="android.intent.action.SENDTO" />
+            <cat name="android.intent.category.DEFAULT" />
+            <cat name="android.intent.category.BROWSABLE" />
+            <scheme name="mailto" />
+        </filter>
+    </item>
 </preferred-activities>

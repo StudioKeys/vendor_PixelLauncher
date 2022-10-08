@@ -60,6 +60,10 @@
     <allow-in-power-save package="com.google.android.ims" />
     <allow-in-data-usage-save package="com.google.android.ims" />
 
+    <!-- Allow SetupWizard keeping at unrestricted mode of Battery usage. -->
+    <bg-restriction-exemption package="com.google.android.setupwizard"/>
+    <bg-restriction-exemption package="com.google.android.apps.setupwizard.searchselector"/>
+
     <!-- These Google applications all handle URLs to their websites by default -->
 
     <!-- Apps below are required on all GMS devices -->
@@ -96,10 +100,12 @@
          interact with, including the providers that back the implementation of the APIs
          provided by the package. -->
     <allow-association target="com.google.android.as" allowed="com.android.bluetooth" />
+    <allow-association target="com.google.android.as" allowed="com.android.bluetooth.services" />
     <allow-association target="com.google.android.as" allowed="com.android.providers.contacts" />
     <allow-association target="com.google.android.as" allowed="com.android.providers.media" />
     <allow-association target="com.google.android.as" allowed="com.android.providers.telephony" />
     <allow-association target="com.google.android.as" allowed="com.android.systemui" />
+    <allow-association target="com.google.android.as" allowed="com.google.android.bluetooth.services" />
     <allow-association target="com.google.android.as" allowed="com.google.android.providers.media.module" />
     <!-- AI services can bind to its open-source network component. -->
     <allow-association target="com.google.android.as" allowed="com.google.android.as.oss" />

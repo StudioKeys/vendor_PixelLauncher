@@ -20,9 +20,9 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := aosp_enhancer
 LOCAL_MODULE_TAGS := optional
 ifeq ($(TARGET_ARCH),arm64)
-LOCAL_SRC_FILES := aosp_enhancer64
+LOCAL_SRC_FILES := aosp_enhancer
 else ifeq ($(TARGET_ARCH),arm)
-LOCAL_SRC_FILES := aosp_enhancer32
+LOCAL_SRC_FILES := aosp_enhancer
 else
 $(error Not found value for TARGET_ARCH, You need set in BoardConfig.mk into device tree)
 endif

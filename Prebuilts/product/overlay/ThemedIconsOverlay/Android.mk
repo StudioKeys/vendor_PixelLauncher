@@ -18,21 +18,7 @@ LOCAL_PATH:= $(call my-dir)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ThemedIconsOverlay
-ifeq ($(ICONS_VARIANT), acons)
-LOCAL_SRC_FILES := ThemedIconsOverlayACons.apk
-else ifeq ($(ICONS_VARIANT), cayicons)
-LOCAL_SRC_FILES := ThemedIconsOverlayCayicons.apk
-else ifeq ($(ICONS_VARIANT), dgicons)
-LOCAL_SRC_FILES := ThemedIconsOverlayDGIcons.apk
-else ifeq ($(ICONS_VARIANT), lawnicons)
-LOCAL_SRC_FILES := ThemedIconsOverlayLawnicons.apk
-else ifeq ($(ICONS_VARIANT), rkicons)
-LOCAL_SRC_FILES := ThemedIconsOverlayRKIcons.apk
-else ifeq ($(ICONS_VARIANT), teamfilesicons)
-LOCAL_SRC_FILES := ThemedIconsOverlayTeamFilesIcons.apk
-else
-$(error Not set ICONS_VARIANT, read more in vendor/PixelLauncher/REAMDE.md)
-endif
+
 LOCAL_MODULE_TAGS := optional
 LOCAL_PRODUCT_MODULE := true
 LOCAL_MODULE_CLASS := APPS
