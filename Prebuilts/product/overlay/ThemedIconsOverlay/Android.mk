@@ -18,7 +18,7 @@ LOCAL_PATH:= $(call my-dir)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ThemedIconsOverlay
-
+LOCAL_SRC_FILES := ThemedIconsOverlay.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_PRODUCT_MODULE := true
 LOCAL_MODULE_CLASS := APPS
