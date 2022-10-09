@@ -18,7 +18,21 @@ LOCAL_PATH:= $(call my-dir)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := NexusLauncherReleaseMod
+ifeq ($(PIXEL_LAUNCHER_VARIANT),extragrids)
+LOCAL_SRC_FILES := NexusLauncherRelease10.apk
+else ifeq ($(PIXEL_LAUNCHER_VARIANT),glance2)
+LOCAL_SRC_FILES := NexusLauncherRelease02.apk
+else ifeq ($(PIXEL_LAUNCHER_VARIANT),glance1)
+LOCAL_SRC_FILES := NexusLauncherRelease01.apk
+else ifeq ($(PIXEL_LAUNCHER_VARIANT),fullmod2)
+LOCAL_SRC_FILES := NexusLauncherRelease11.apk
+else ifeq ($(PIXEL_LAUNCHER_VARIANT),fullmod1)
+LOCAL_SRC_FILES := NexusLauncherRelease12.apk
+else ifeq ($(PIXEL_LAUNCHER_VARIANT),nomod)
 LOCAL_SRC_FILES := NexusLauncherRelease00.apk
+else
+$(error Not set PIXEL_LAUNCHER_VARIANT, read more in vendor/PixelLauncher/REAMDE.md)
+endif
 LOCAL_PRODUCT_MODULE := true
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
