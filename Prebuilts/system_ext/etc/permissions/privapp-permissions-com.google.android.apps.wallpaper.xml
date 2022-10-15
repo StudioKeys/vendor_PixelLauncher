@@ -2,7 +2,7 @@
 <!--
 This XML file declares which signature|privileged permissions should be granted to privileged
 applications on GMS or Google-branded devices.
-It allows additional grants on top of privapp-permissions-platform.xml Edited by saitama_96
+It allows additional grants on top of privapp-permissions-platform.xml. Made by @saitama_96 Telegram.
 -->
 <permissions>
     <privapp-permissions package="com.google.android.apps.wallpaper">
@@ -29,5 +29,8 @@ It allows additional grants on top of privapp-permissions-platform.xml Edited by
         <permission name="com.google.android.c2dm.permission.RECEIVE"/>
         <permission name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
         <permission name="com.google.pixel.livewallpaper.permission.DOWNLOAD_LIVE_WALLPAPER"/>
+		<permission name="com.google.android.wallpaper.effects.GENERATE_EFFECT"/>
+		<permission name="com.google.android.wallpaper.effects.QUERY_EFFECT"/>
+		<permission name="com.google.android.apps.wallpaper.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
     </privapp-permissions>
 </permissions>

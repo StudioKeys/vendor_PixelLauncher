@@ -161,3 +161,4 @@
         <permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
     </exception>
 </exceptions>
+

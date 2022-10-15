@@ -41,10 +41,3 @@ PRODUCT_PACKAGES += \
    Remover \
    ThemedIconsOverlay \
    WallpaperPickerGoogleReleaseMod
-
-ifeq ($(AOSP_ENHANCER),true)
-# AOSP enhancer
-PRODUCT_PACKAGES += \
-   aosp_enhancer \
-   init.aosp_enhancer.rc
-endif

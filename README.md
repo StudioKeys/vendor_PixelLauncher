@@ -11,7 +11,6 @@ Add these lines in device.mk or romname_devicename.mk:
 
 >**_PIXEL_LAUNCHER_VARIANT := name_of_variant_** <br/>
 >**_ICONS_VARIANT := true_**<br/>
->**_AOSP_ENHANCER := true (Only if you want that)_** <br/>
 
 Examples: <br/> PIXEL_LAUNCHER_VARIANT := fullmod1
 
