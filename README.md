@@ -1,6 +1,6 @@
 # ![Pixel Launcher Mod](https://images.pling.com/img/00/00/64/57/06/1915907/bazaart-20220915-120717.jpg)<br/>
 **Support only for Android 13**<br/>
-**Current version: v1.3**<br/>
+**Current version: v1.4**<br/>
 **Changelog: [Click here](https://www.pling.com/p/1915907/)**
 
 
@@ -24,5 +24,5 @@ You can download and install PixelLauncherMods [read more about here](https://gi
 
 
 **Credits:**<br/>
-[Team Files™](https://t.me/modulesrepo)<br/>
-[Magisk module](https://t.me/modulesrepo/3166)<br/>
+[Team Files™](https://teamfiles.net)<br/>
+[Magisk module](https://t.me/modulesrepo/4037)<br/>
