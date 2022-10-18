@@ -14,8 +14,21 @@ Add these lines in device.mk or romname_devicename.mk:
 
 Examples: <br/> PIXEL_LAUNCHER_VARIANT := fullmod1
 
-You can use that variants for NexusLauncher: extragrids,glance1,glance2,fullmod1,fullmod2,nomod  <br/>
-
+You can use these variants for NexusLauncher:<br>
+- `extragrids`: This contains more Grids Options in App Grid
+- `glance1`: Adds Material You Greetings In At A Glance,<br>
+  Example Of glance1-<br>
+  Line 1 - Material You Greetings, Day & Date<br>
+  Line 2 - Weather Information<br>
+- `glance2`: Adds Material You Greetings In At A Glance,<br>
+  Example Of glance2-<br>
+  Line 1 - Material You Greetings<br>
+  Line 2 - Day & Date<br>
+  Line 3 - Weather Information<br>
+- `fullmod1`: Contains extragrids and glance1
+- `fullmod2`: Contains extragrids and glance2
+- `nomod`: Does not contain extragrids or glance1/glance2, basically the Original Pixel Launcher
+<br/>
 
 **Glance Greetings Type 1*
 # ![Preview](https://graph.org/file/585ec9f42f519a83571f4.jpg)<br/>
