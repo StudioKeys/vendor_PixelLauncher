@@ -1,3 +1,5 @@
+<h1 align="left">Pixel Launcher Mod for Android 13 AOSP ROMs</h1>
+
 # ![Pixel Launcher Mod](https://images.pling.com/img/00/00/64/57/06/1915907/bazaart-20220915-120717.jpg)<br/>
 **Support only for Android 13**<br/>
 **Current version: v1.4**<br/>
@@ -32,6 +34,7 @@ You can use these variants for NexusLauncher:<br>
 
 **Glance Greetings Type 1*
 # ![Preview](https://graph.org/file/585ec9f42f519a83571f4.jpg)<br/>
+
 
 You can download and install PixelLauncherMods [read more about here](https://github.com/KieronQuinn/PixelLauncherMods)
 
