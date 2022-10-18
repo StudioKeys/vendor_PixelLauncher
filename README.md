@@ -25,4 +25,5 @@ You can download and install PixelLauncherMods [read more about here](https://gi
 
 **Credits:**<br/>
 [Team Files™](https://teamfiles.net)<br/>
+[Ardjlon](https://github.com/ardjlon/)<br/>
 [Magisk module](https://t.me/modulesrepo/4037)<br/>
