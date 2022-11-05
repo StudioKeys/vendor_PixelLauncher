@@ -24,9 +24,9 @@ else ifeq ($(PIXEL_LAUNCHER_VARIANT),glance2)
 LOCAL_SRC_FILES := NexusLauncherRelease02.apk
 else ifeq ($(PIXEL_LAUNCHER_VARIANT),glance1)
 LOCAL_SRC_FILES := NexusLauncherRelease01.apk
-else ifeq ($(PIXEL_LAUNCHER_VARIANT),fullmod2)
-LOCAL_SRC_FILES := NexusLauncherRelease11.apk
 else ifeq ($(PIXEL_LAUNCHER_VARIANT),fullmod1)
+LOCAL_SRC_FILES := NexusLauncherRelease11.apk
+else ifeq ($(PIXEL_LAUNCHER_VARIANT),fullmod2)
 LOCAL_SRC_FILES := NexusLauncherRelease12.apk
 else ifeq ($(PIXEL_LAUNCHER_VARIANT),nomod)
 LOCAL_SRC_FILES := NexusLauncherRelease00.apk
